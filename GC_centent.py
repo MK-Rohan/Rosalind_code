@@ -31,4 +31,6 @@ for i in list(rosa.keys()):
     ma.append(gc/tot*100)
 
 for key, value in perc.items():
-    if value == max(ma):                                                                                                        print(key)                                                                                                              print(value)
+    if value == max(ma):
+        print(key)
+        print(value)
