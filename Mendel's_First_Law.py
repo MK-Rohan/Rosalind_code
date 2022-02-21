@@ -1,4 +1,5 @@
 in_data = input("Give your 3 numbers (positive integers): ")
+
 species_1 = in_data.split()[0]
 species_2 = in_data.split()[1]
 species_3 = in_data.split()[2]
