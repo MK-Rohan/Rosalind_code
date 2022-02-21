@@ -3,6 +3,7 @@ months = data.split()[0]
 live_months = data.split()[1]
 life_time = dict()
 newbone_rabbits = 0
+
 def growth(mnth):
     global newbone_rabbits
     for k in range(2, int(live_months)+1): # newbone_rabbits birth
